@@ -1,0 +1,90 @@
+/* font-family: 'Roboto', sans-serif; */
+
+*, *:before, *:after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto',sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+p {
+   line-height: 1.4em; 
+}
+
+.hero {
+   background-color: seagreen; 
+   color: white;
+   padding: 4em 0;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+   max-width: 1100px;
+}
+
+.container__text {
+   width: 60%;
+}
+
+.container__img {
+   align-self: flex-start;
+   width: 40%;
+   border: solid 1px yellow;
+}
+
+.btn {
+   background-color: lightsalmon;
+   border-radius: 30px;
+   padding: 0.5em 1em;
+}
+
+a.btn {
+   text-decoration: none;
+   color: black;
+   transition: all ease-in-out 0.3s;
+}
+
+.container__text > p {
+   margin-bottom: 2em;
+}
+
+a.btn:hover, .btn:focus {
+   color: white;
+}
+
+/* Container-grid */
+
+   /* Section one */
+
+.hero2 {
+   padding: 3em 0;
+   text-align: center;
+}
+
+.row {
+   display: flex;
+   gap: 25px;
+}
+
+.col > h2 {
+   color: purple;
+}
+
+   /* Section Two */
+
+.hero3 {
+   background-color: seagreen;
+   padding: 3em 0;
+   color: white; 
+   text-align: center;
+}
+
+.hero3 h2, .hero3 p {
+   color: white;
+}
+
